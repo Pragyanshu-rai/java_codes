@@ -1,2 +1,2 @@
 # java_codes
-all codes written in jav
+all codes written in java
