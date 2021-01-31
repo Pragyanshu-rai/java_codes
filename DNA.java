@@ -63,6 +63,8 @@ public class DNA
     {
         System.out.println("Enter the DNA string file name");
         String fileName = in.readLine();
+        if(fileName.length() < 1)
+            fileName = "indna.txt";
         file_in = new BufferedReader(new FileReader(fileName));
         while((line = file_in.readLine())!=null)
             Original_dna+=line;
