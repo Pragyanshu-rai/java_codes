@@ -1,0 +1,13 @@
+class first
+{
+	public static void main(String a[])
+	{
+        if(a[0].length() <1)
+            a[0]="Hello World";
+		System.out.printf("Hi %s\n",a[0]);
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.print(a[i]);
+		}
+	}
+}

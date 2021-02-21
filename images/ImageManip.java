@@ -1,7 +1,7 @@
-import java.awt.image.BufferedImage;
+import java.awt.image.BufferedImage;//
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
-import javax.imageio.ImageIO;
+import javax.imageio.ImageIO;//
 import java.io.IOException;
 import java.io.File;
 public class ImageManip
