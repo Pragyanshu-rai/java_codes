@@ -2,7 +2,7 @@ class GrandParent{
 
     void showName(){
 
-        System.out.print("GP");
+        System.out.println("GP");
     }
 
 }
@@ -11,7 +11,7 @@ class Parent extends GrandParent{
 
     void showName(){
 
-        System.out.print("P");
+        System.out.println("P");
     }
 
 
@@ -21,7 +21,7 @@ class child extends Parent{
 
     void showName(){
 
-        System.out.print("Child");
+        System.out.println("Child");
     }
 
 
