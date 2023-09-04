@@ -1,3 +1,4 @@
+import RESTTemplate
 class AutoMobile {
     protected String make, model;
     protected Boolean is_sold;
